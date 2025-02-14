@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #806969;
+}
+.calculator{
+    height: 300px;
+    width: 300px;
+    border: 5px solid #ccc;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: white;
+}
+#display{
+    width: 95%;
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: right;
+    padding: 10px;
+    font-size: 1.2em;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+button {
+    height: 40px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
